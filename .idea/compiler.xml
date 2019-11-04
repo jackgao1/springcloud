@@ -8,8 +8,8 @@
         <outputRelativeToContentRoot value="true" />
         <module name="mysql" />
         <module name="zuul" />
-        <module name="springcloud" />
         <module name="eureka" />
+        <module name="springcloud" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
