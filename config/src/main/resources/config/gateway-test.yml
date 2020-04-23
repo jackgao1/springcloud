@@ -21,3 +21,9 @@ spring:
         - Path= /server2/**
         filters:
         - StripPrefix= 1
+      - id: redis
+        uri: lb://redis
+        predicates:
+        - Path= /redis/**
+        filters:
+        - StripPrefix= 1

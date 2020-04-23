@@ -9,9 +9,13 @@
         <module name="config" />
         <module name="eureka" />
         <module name="gateway" />
+        <module name="redis" />
         <module name="server1" />
         <module name="server2" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="server3" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

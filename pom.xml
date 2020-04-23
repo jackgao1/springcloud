@@ -68,6 +68,7 @@
         <module>eureka</module>
         <module>config</module>
         <module>gateway</module>
+        <module>redis</module>
         <module>server1</module>
         <module>server2</module>
     </modules>
