@@ -18,13 +18,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="246">
               <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
               <folding>
                 <marker date="1587626170273" expanded="true" signature="3057:3120" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RestTemplateConfiguration.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server2/src/main/java/com/baidu/server2/config/RestTemplateConfiguration.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+              <folding>
+                <element signature="e#391#392#0" expanded="true" />
+                <element signature="e#432#433#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -84,11 +97,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/server2/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="27" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="220">
+              <caret line="22" column="50" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -121,10 +134,8 @@
         <option value="$PROJECT_DIR$/server1/src/test/java/com/baidu/server1/Server1ApplicationTests.java" />
         <option value="$PROJECT_DIR$/server2/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/server2/src/main/resources/bootstrap.properties" />
-        <option value="$PROJECT_DIR$/server2/pom.xml" />
         <option value="$PROJECT_DIR$/gateway/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/server1/src/main/java/com/baidu/server1/config/RestTemplateConfiguration.java" />
-        <option value="$PROJECT_DIR$/server2/src/main/java/com/baidu/server2/config/RestTemplateConfiguration.java" />
         <option value="$PROJECT_DIR$/server2/src/main/java/com/baidu/server2/controller/Server2Controller.java" />
         <option value="$PROJECT_DIR$/server1/src/main/java/com/baidu/server1/controller/ServerController.java" />
         <option value="$PROJECT_DIR$/server1/src/main/java/com/baidu/server1/service/Server1Service.java" />
@@ -135,6 +146,8 @@
         <option value="$PROJECT_DIR$/config/src/main/resources/config/gateway-prod.yml" />
         <option value="$PROJECT_DIR$/config/src/main/resources/config/gateway-test.yml" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/server2/src/main/java/com/baidu/server2/config/RestTemplateConfiguration.java" />
+        <option value="$PROJECT_DIR$/server2/pom.xml" />
       </list>
     </option>
   </component>
@@ -180,7 +193,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="29" />
     <option name="width" value="1346" />
     <option name="height" value="688" />
@@ -197,6 +210,11 @@
             <path>
               <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="server2" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -348,15 +366,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1587609062271</updated>
-      <workItem from="1587609066973" duration="10571000" />
+      <workItem from="1587609066973" duration="10745000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10571000" />
+    <option name="totallyTimeSpent" value="10745000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" />
@@ -377,10 +395,10 @@
       <window_info anchor="bottom" id="Java Enterprise" />
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.22519685" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.22519685" />
       <window_info anchor="bottom" id="Spring" />
       <window_info anchor="bottom" id="Terminal" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1317716" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23938507" />
       <window_info anchor="right" id="Bean Validation" />
       <window_info id="Web" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" />
@@ -526,13 +544,6 @@
     <entry file="file://$PROJECT_DIR$/config/src/main/resources/config/server2-test.yml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/server2/src/main/java/com/baidu/server2/config/RestTemplateConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/server1/src/main/java/com/baidu/server1/Server1Application.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
@@ -665,13 +676,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server2/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="359">
@@ -686,6 +690,24 @@
           <folding>
             <marker date="1587626170273" expanded="true" signature="3057:3120" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server2/src/main/java/com/baidu/server2/config/RestTemplateConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <folding>
+            <element signature="e#391#392#0" expanded="true" />
+            <element signature="e#432#433#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server2/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="22" column="50" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="50" />
         </state>
       </provider>
     </entry>
