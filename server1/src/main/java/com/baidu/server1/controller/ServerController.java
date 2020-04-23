@@ -3,6 +3,7 @@ package com.baidu.server1.controller;
 import com.baidu.server1.service.Server1Service;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
@@ -11,7 +12,7 @@ public class ServerController {
     private Server1Service server1Service;
 
     @GetMapping("get")
-    private Object get(String msg) {
+    private Object get(@RequestParam("msg") String msg) {
         return "这是1的数据"+msg;
     }
 
