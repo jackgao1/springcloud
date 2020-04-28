@@ -21,3 +21,9 @@ spring:
         - Path= /server2/**
         filters:
         - StripPrefix= 1
+      - id: thymeleaf
+        uri: lb://thymeleaf
+        predicates:
+        - Path= /thymeleaf/**
+        filters:
+        - StripPrefix= 1

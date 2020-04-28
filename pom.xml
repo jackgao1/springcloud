@@ -71,6 +71,9 @@
         <module>redis</module>
         <module>server1</module>
         <module>server2</module>
+        <module>common</module>
+        <module>tsetserver</module>
+        <module>thymeleaf</module>
     </modules>
     <dependencyManagement>
         <dependencies>
@@ -86,6 +89,11 @@
 
     <dependencies>
         <dependency>
+            <groupId>com.baidu</groupId>
+            <artifactId>common</artifactId>
+            <version>1.0</version>
+        </dependency>
+        <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
@@ -98,10 +106,7 @@
             <artifactId>spring-boot-devtools</artifactId>
             <optional>true</optional>
         </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-data-jpa</artifactId>
-        </dependency>
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
