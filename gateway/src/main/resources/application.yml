@@ -3,8 +3,6 @@ server:
 spring:
   aop:
     proxy-target-class: true
-  application:
-    name: gateway
   cloud:
     gateway:
       default-filters:
@@ -21,9 +19,15 @@ spring:
         - Path= /server2/**
         filters:
         - StripPrefix= 1
+      - id: redis
+        uri: lb://redis
+        predicates:
+          - Path= /redis/**
+        filters:
+          - StripPrefix= 1
       - id: thymeleaf
         uri: lb://thymeleaf
         predicates:
-        - Path= /thymeleaf/**
+          - Path= /thymeleaf/**
         filters:
-        - StripPrefix= 1
+          - StripPrefix= 1

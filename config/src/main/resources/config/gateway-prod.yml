@@ -27,12 +27,6 @@ spring:
         - Path= /redis/**
         filters:
         - StripPrefix= 1
-      - id: testserver
-        uri: lb://testserver
-        predicates:
-        - Path= /testserver/**
-        filters:
-        - StripPrefix= 1
       - id: thymeleaf
         uri: lb://thymeleaf
         predicates:
