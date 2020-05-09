@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/config/config.iml" filepath="$PROJECT_DIR$/config/config.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka/eureka.iml" filepath="$PROJECT_DIR$/eureka/eureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/gateway/gateway.iml" filepath="$PROJECT_DIR$/gateway/gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oauth2/oauth2.iml" filepath="$PROJECT_DIR$/oauth2/oauth2.iml" />
       <module fileurl="file://$PROJECT_DIR$/redis/redis.iml" filepath="$PROJECT_DIR$/redis/redis.iml" />
       <module fileurl="file://$PROJECT_DIR$/server1/server1.iml" filepath="$PROJECT_DIR$/server1/server1.iml" />
       <module fileurl="file://$PROJECT_DIR$/server2/server2.iml" filepath="$PROJECT_DIR$/server2/server2.iml" />

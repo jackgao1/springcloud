@@ -5,7 +5,9 @@
       <configuration>
         <setting name="validation-enabled" value="true" />
         <setting name="provider-name" value="Hibernate" />
-        <datasource-mapping />
+        <datasource-mapping>
+          <factory-entry name="entityManagerFactory" />
+        </datasource-mapping>
         <naming-strategy-map />
       </configuration>
     </facet>
@@ -65,10 +67,10 @@
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.slf4j:slf4j-log4j12:1.7.25" level="project" />
     <orderEntry type="library" name="Maven: log4j:log4j:1.2.17" level="project" />
     <orderEntry type="library" name="Maven: commons-io:commons-io:2.6" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Maven: org.springframework.data:spring-data-redis:2.2.6.RELEASE" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Maven: org.springframework.data:spring-data-keyvalue:2.2.6.RELEASE" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Maven: org.springframework:spring-oxm:5.2.5.RELEASE" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Maven: org.springframework:spring-context-support:5.2.5.RELEASE" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.springframework.data:spring-data-redis:2.2.7.RELEASE" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.springframework.data:spring-data-keyvalue:2.2.7.RELEASE" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.springframework:spring-oxm:5.2.6.RELEASE" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.springframework:spring-context-support:5.2.6.RELEASE" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.hibernate:hibernate-core:5.2.14.Final" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.jboss.logging:jboss-logging:3.3.1.Final" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.javassist:javassist:3.22.0-GA" level="project" />

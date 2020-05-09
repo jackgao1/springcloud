@@ -1,0 +1,166 @@
+2020-05-06 16:41:04,448 | INFO  | restartedMain:o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor:227 | Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-05-06 16:41:05,770 | INFO  | restartedMain:o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 | Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$1a6b4027] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-06 16:41:10,756 | INFO  | restartedMain:o.s.c.c.u.InetUtils:170 | Cannot determine local hostname
+2020-05-06 16:41:10,777 | INFO  | restartedMain:o.s.c.n.e.InstanceInfoFactory:72 | Setting initial instance status as: STARTING
+2020-05-06 16:41:10,855 | INFO  | restartedMain:c.n.d.DiscoveryClient:349 | Initializing Eureka in region us-east-1
+2020-05-06 16:41:12,377 | INFO  | restartedMain:c.n.d.p.DiscoveryJerseyProvider:70 | Using JSON encoding codec LegacyJacksonJson
+2020-05-06 16:41:12,378 | INFO  | restartedMain:c.n.d.p.DiscoveryJerseyProvider:71 | Using JSON decoding codec LegacyJacksonJson
+2020-05-06 16:41:12,512 | INFO  | restartedMain:c.n.d.p.DiscoveryJerseyProvider:80 | Using XML encoding codec XStreamXml
+2020-05-06 16:41:12,512 | INFO  | restartedMain:c.n.d.p.DiscoveryJerseyProvider:81 | Using XML decoding codec XStreamXml
+2020-05-06 16:41:12,743 | INFO  | restartedMain:c.n.d.s.r.a.ConfigClusterResolver:43 | Resolving eureka endpoints via configuration
+2020-05-06 16:41:13,701 | INFO  | restartedMain:c.n.d.DiscoveryClient:958 | Disable delta property : false
+2020-05-06 16:41:13,702 | INFO  | restartedMain:c.n.d.DiscoveryClient:959 | Single vip registry refresh property : null
+2020-05-06 16:41:13,703 | INFO  | restartedMain:c.n.d.DiscoveryClient:960 | Force full registry fetch : false
+2020-05-06 16:41:13,703 | INFO  | restartedMain:c.n.d.DiscoveryClient:961 | Application is null : false
+2020-05-06 16:41:13,704 | INFO  | restartedMain:c.n.d.DiscoveryClient:962 | Registered Applications size is zero : true
+2020-05-06 16:41:13,704 | INFO  | restartedMain:c.n.d.DiscoveryClient:964 | Application version is -1: true
+2020-05-06 16:41:13,705 | INFO  | restartedMain:c.n.d.DiscoveryClient:1047 | Getting all instance registry info from the eureka server
+2020-05-06 16:41:13,887 | INFO  | restartedMain:c.n.d.DiscoveryClient:1056 | The response status is 200
+2020-05-06 16:41:13,890 | INFO  | restartedMain:c.n.d.DiscoveryClient:1317 | Not registering with Eureka server per configuration
+2020-05-06 16:41:13,898 | INFO  | restartedMain:c.n.d.DiscoveryClient:449 | Discovery Client initialized at timestamp 1588754473896 with initial instances count: 1
+2020-05-06 16:41:17,701 | INFO  | restartedMain:o.s.c.c.c.ConfigServicePropertySourceLocator:207 | Fetching config from server at : http://192.168.1.1:1001/
+2020-05-06 16:41:23,277 | INFO  | restartedMain:o.s.c.c.c.ConfigServicePropertySourceLocator:151 | Located environment: name=gateway, profiles=[dev], label=null, version=null, state=null
+2020-05-06 16:41:23,278 | INFO  | restartedMain:o.s.c.b.c.PropertySourceBootstrapConfiguration:101 | Located property source: CompositePropertySource {name='configService', propertySources=[MapPropertySource {name='classpath:/config/gateway-dev.yml'}]}
+2020-05-06 16:41:23,282 | INFO  | restartedMain:c.b.g.GatewayApplication:679 | The following profiles are active: dev
+2020-05-06 16:41:25,445 | INFO  | restartedMain:o.s.c.c.s.GenericScope:295 | BeanFactory id=b083a89e-6fba-3b86-a0f7-28989e8ad185
+2020-05-06 16:41:25,515 | INFO  | restartedMain:o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 | Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$1a6b4027] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-06 16:41:25,827 | INFO  | restartedMain:c.n.c.s.URLConfigurationSource:122 | To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-06 16:41:25,832 | INFO  | restartedMain:c.n.c.s.URLConfigurationSource:122 | To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-06 16:41:29,836 | INFO  | restartedMain:o.s.c.c.u.InetUtils:170 | Cannot determine local hostname
+2020-05-06 16:41:33,598 | INFO  | restartedMain:o.s.c.c.u.InetUtils:170 | Cannot determine local hostname
+2020-05-06 16:41:38,298 | INFO  | restartedMain:o.s.c.g.r.RouteDefinitionRouteLocator:120 | Loaded RoutePredicateFactory [After]
+2020-05-06 16:41:38,298 | INFO  | restartedMain:o.s.c.g.r.RouteDefinitionRouteLocator:120 | Loaded RoutePredicateFactory [Before]
+2020-05-06 16:41:38,298 | INFO  | restartedMain:o.s.c.g.r.RouteDefinitionRouteLocator:120 | Loaded RoutePredicateFactory [Between]
+2020-05-06 16:41:38,298 | INFO  | restartedMain:o.s.c.g.r.RouteDefinitionRouteLocator:120 | Loaded RoutePredicateFactory [Cookie]
+2020-05-06 16:41:38,298 | INFO  | restartedMain:o.s.c.g.r.RouteDefinitionRouteLocator:120 | Loaded RoutePredicateFactory [Header]
+2020-05-06 16:41:38,298 | INFO  | restartedMain:o.s.c.g.r.RouteDefinitionRouteLocator:120 | Loaded RoutePredicateFactory [Host]
+2020-05-06 16:41:38,298 | INFO  | restartedMain:o.s.c.g.r.RouteDefinitionRouteLocator:120 | Loaded RoutePredicateFactory [Method]
+2020-05-06 16:41:38,314 | INFO  | restartedMain:o.s.c.g.r.RouteDefinitionRouteLocator:120 | Loaded RoutePredicateFactory [Path]
+2020-05-06 16:41:38,314 | INFO  | restartedMain:o.s.c.g.r.RouteDefinitionRouteLocator:120 | Loaded RoutePredicateFactory [Query]
+2020-05-06 16:41:38,314 | INFO  | restartedMain:o.s.c.g.r.RouteDefinitionRouteLocator:120 | Loaded RoutePredicateFactory [ReadBodyPredicateFactory]
+2020-05-06 16:41:38,314 | INFO  | restartedMain:o.s.c.g.r.RouteDefinitionRouteLocator:120 | Loaded RoutePredicateFactory [RemoteAddr]
+2020-05-06 16:41:38,314 | INFO  | restartedMain:o.s.c.g.r.RouteDefinitionRouteLocator:120 | Loaded RoutePredicateFactory [Weight]
+2020-05-06 16:41:38,314 | INFO  | restartedMain:o.s.c.g.r.RouteDefinitionRouteLocator:120 | Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2020-05-06 16:41:39,229 | INFO  | restartedMain:o.s.b.a.e.w.EndpointLinksResolver:59 | Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-05-06 16:41:40,105 | INFO  | restartedMain:c.n.d.DiscoveryClient:888 | Shutting down DiscoveryClient ...
+2020-05-06 16:41:40,136 | INFO  | restartedMain:c.n.d.DiscoveryClient:911 | Completed shut down of DiscoveryClient
+2020-05-06 16:41:40,277 | INFO  | restartedMain:o.s.c.n.e.InstanceInfoFactory:72 | Setting initial instance status as: STARTING
+2020-05-06 16:41:40,277 | INFO  | restartedMain:c.n.d.DiscoveryClient:349 | Initializing Eureka in region us-east-1
+2020-05-06 16:41:40,292 | INFO  | restartedMain:c.n.d.p.DiscoveryJerseyProvider:70 | Using JSON encoding codec LegacyJacksonJson
+2020-05-06 16:41:40,292 | INFO  | restartedMain:c.n.d.p.DiscoveryJerseyProvider:71 | Using JSON decoding codec LegacyJacksonJson
+2020-05-06 16:41:40,292 | INFO  | restartedMain:c.n.d.p.DiscoveryJerseyProvider:80 | Using XML encoding codec XStreamXml
+2020-05-06 16:41:40,292 | INFO  | restartedMain:c.n.d.p.DiscoveryJerseyProvider:81 | Using XML decoding codec XStreamXml
+2020-05-06 16:41:40,417 | INFO  | restartedMain:c.n.d.s.r.a.ConfigClusterResolver:43 | Resolving eureka endpoints via configuration
+2020-05-06 16:41:40,417 | INFO  | restartedMain:c.n.d.DiscoveryClient:958 | Disable delta property : false
+2020-05-06 16:41:40,417 | INFO  | restartedMain:c.n.d.DiscoveryClient:959 | Single vip registry refresh property : null
+2020-05-06 16:41:40,417 | INFO  | restartedMain:c.n.d.DiscoveryClient:960 | Force full registry fetch : false
+2020-05-06 16:41:40,417 | INFO  | restartedMain:c.n.d.DiscoveryClient:961 | Application is null : false
+2020-05-06 16:41:40,417 | INFO  | restartedMain:c.n.d.DiscoveryClient:962 | Registered Applications size is zero : true
+2020-05-06 16:41:40,417 | INFO  | restartedMain:c.n.d.DiscoveryClient:964 | Application version is -1: true
+2020-05-06 16:41:40,417 | INFO  | restartedMain:c.n.d.DiscoveryClient:1047 | Getting all instance registry info from the eureka server
+2020-05-06 16:41:40,433 | INFO  | restartedMain:c.n.d.DiscoveryClient:1056 | The response status is 200
+2020-05-06 16:41:40,433 | INFO  | restartedMain:c.n.d.DiscoveryClient:1270 | Starting heartbeat executor: renew interval is: 30
+2020-05-06 16:41:40,433 | INFO  | restartedMain:c.n.d.InstanceInfoReplicator:60 | InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-05-06 16:41:40,433 | INFO  | restartedMain:c.n.d.DiscoveryClient:449 | Discovery Client initialized at timestamp 1588754500433 with initial instances count: 1
+2020-05-06 16:41:40,433 | INFO  | restartedMain:o.s.c.n.e.s.EurekaServiceRegistry:41 | Registering application GATEWAY with eureka with status UP
+2020-05-06 16:41:40,433 | INFO  | restartedMain:c.n.d.DiscoveryClient:1305 | Saw local status change event StatusChangeEvent [timestamp=1588754500433, current=UP, previous=STARTING]
+2020-05-06 16:41:40,449 | INFO  | DiscoveryClient-InstanceInfoReplicator-0:c.n.d.DiscoveryClient:826 | DiscoveryClient_GATEWAY/localhost:gateway:1002: registering service...
+2020-05-06 16:41:40,496 | INFO  | DiscoveryClient-InstanceInfoReplicator-0:c.n.d.DiscoveryClient:835 | DiscoveryClient_GATEWAY/localhost:gateway:1002 - registration status: 204
+2020-05-06 16:41:46,129 | INFO  | restartedMain:o.s.b.w.e.n.NettyWebServer:77 | Netty started on port(s): 1002
+2020-05-06 16:41:46,132 | INFO  | restartedMain:o.s.c.n.e.s.EurekaAutoServiceRegistration:143 | Updating port to 1002
+2020-05-06 16:41:46,158 | INFO  | restartedMain:c.b.g.GatewayApplication:59 | Started GatewayApplication in 46.907 seconds (JVM running for 51.997)
+2020-05-06 16:41:49,120 | INFO  | reactor-http-nio-2:c.n.c.ChainedDynamicProperty:115 | Flipping property: thymeleaf.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2020-05-06 16:41:49,280 | INFO  | reactor-http-nio-2:c.n.u.c.ShutdownEnabledTimer:58 | Shutdown hook installed for: NFLoadBalancer-PingTimer-thymeleaf
+2020-05-06 16:41:49,283 | INFO  | reactor-http-nio-2:c.n.l.BaseLoadBalancer:197 | Client: thymeleaf instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=thymeleaf,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2020-05-06 16:41:49,337 | INFO  | reactor-http-nio-2:c.n.l.DynamicServerListLoadBalancer:222 | Using serverListUpdater PollingServerListUpdater
+2020-05-06 16:41:49,347 | INFO  | reactor-http-nio-2:c.n.l.DynamicServerListLoadBalancer:150 | DynamicServerListLoadBalancer for client thymeleaf initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=thymeleaf,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:org.springframework.cloud.netflix.ribbon.eureka.DomainExtractingServerList@ea00ab
+2020-05-06 16:41:51,657 | INFO  | RMI TCP Connection(6)-192.168.1.1:o.s.c.c.c.ConfigServicePropertySourceLocator:207 | Fetching config from server at : http://192.168.1.1:1001/
+2020-05-06 16:41:56,202 | INFO  | RMI TCP Connection(6)-192.168.1.1:o.s.c.c.c.ConfigServicePropertySourceLocator:151 | Located environment: name=gateway, profiles=[dev], label=null, version=null, state=null
+2020-05-06 16:46:40,444 | INFO  | AsyncResolver-bootstrap-executor-0:c.n.d.s.r.a.ConfigClusterResolver:43 | Resolving eureka endpoints via configuration
+2020-05-06 16:49:51,019 | INFO  | PollingServerListUpdater-1:c.n.c.ChainedDynamicProperty:115 | Flipping property: thymeleaf.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2020-05-06 16:51:40,453 | INFO  | AsyncResolver-bootstrap-executor-0:c.n.d.s.r.a.ConfigClusterResolver:43 | Resolving eureka endpoints via configuration
+2020-05-06 16:56:40,463 | INFO  | AsyncResolver-bootstrap-executor-0:c.n.d.s.r.a.ConfigClusterResolver:43 | Resolving eureka endpoints via configuration
+2020-05-06 17:01:40,478 | INFO  | AsyncResolver-bootstrap-executor-0:c.n.d.s.r.a.ConfigClusterResolver:43 | Resolving eureka endpoints via configuration
+2020-05-06 17:06:40,507 | INFO  | AsyncResolver-bootstrap-executor-0:c.n.d.s.r.a.ConfigClusterResolver:43 | Resolving eureka endpoints via configuration
+2020-05-06 17:11:40,518 | INFO  | AsyncResolver-bootstrap-executor-0:c.n.d.s.r.a.ConfigClusterResolver:43 | Resolving eureka endpoints via configuration
+2020-05-06 17:16:40,520 | INFO  | AsyncResolver-bootstrap-executor-0:c.n.d.s.r.a.ConfigClusterResolver:43 | Resolving eureka endpoints via configuration
+2020-05-06 17:21:40,528 | INFO  | AsyncResolver-bootstrap-executor-0:c.n.d.s.r.a.ConfigClusterResolver:43 | Resolving eureka endpoints via configuration
+2020-05-06 17:26:40,532 | INFO  | AsyncResolver-bootstrap-executor-0:c.n.d.s.r.a.ConfigClusterResolver:43 | Resolving eureka endpoints via configuration
+2020-05-06 17:31:40,549 | INFO  | AsyncResolver-bootstrap-executor-0:c.n.d.s.r.a.ConfigClusterResolver:43 | Resolving eureka endpoints via configuration
+2020-05-06 17:36:40,552 | INFO  | AsyncResolver-bootstrap-executor-0:c.n.d.s.r.a.ConfigClusterResolver:43 | Resolving eureka endpoints via configuration
+2020-05-06 17:41:40,559 | INFO  | AsyncResolver-bootstrap-executor-0:c.n.d.s.r.a.ConfigClusterResolver:43 | Resolving eureka endpoints via configuration
+2020-05-06 17:46:40,562 | INFO  | AsyncResolver-bootstrap-executor-0:c.n.d.s.r.a.ConfigClusterResolver:43 | Resolving eureka endpoints via configuration
+2020-05-06 17:51:40,579 | INFO  | AsyncResolver-bootstrap-executor-0:c.n.d.s.r.a.ConfigClusterResolver:43 | Resolving eureka endpoints via configuration
+2020-05-06 17:56:40,613 | INFO  | AsyncResolver-bootstrap-executor-0:c.n.d.s.r.a.ConfigClusterResolver:43 | Resolving eureka endpoints via configuration
+2020-05-06 18:01:40,648 | INFO  | AsyncResolver-bootstrap-executor-0:c.n.d.s.r.a.ConfigClusterResolver:43 | Resolving eureka endpoints via configuration
+2020-05-06 18:06:40,658 | INFO  | AsyncResolver-bootstrap-executor-0:c.n.d.s.r.a.ConfigClusterResolver:43 | Resolving eureka endpoints via configuration
+2020-05-06 18:11:40,693 | INFO  | AsyncResolver-bootstrap-executor-0:c.n.d.s.r.a.ConfigClusterResolver:43 | Resolving eureka endpoints via configuration
+2020-05-06 18:16:40,695 | INFO  | AsyncResolver-bootstrap-executor-0:c.n.d.s.r.a.ConfigClusterResolver:43 | Resolving eureka endpoints via configuration
+2020-05-06 18:21:43,668 | INFO  | AsyncResolver-bootstrap-executor-0:c.n.d.s.r.a.ConfigClusterResolver:43 | Resolving eureka endpoints via configuration
+2020-05-06 18:26:47,415 | INFO  | AsyncResolver-bootstrap-executor-0:c.n.d.s.r.a.ConfigClusterResolver:43 | Resolving eureka endpoints via configuration
+2020-05-06 18:31:47,417 | INFO  | AsyncResolver-bootstrap-executor-0:c.n.d.s.r.a.ConfigClusterResolver:43 | Resolving eureka endpoints via configuration
+2020-05-06 18:36:47,418 | INFO  | AsyncResolver-bootstrap-executor-0:c.n.d.s.r.a.ConfigClusterResolver:43 | Resolving eureka endpoints via configuration
+2020-05-06 18:41:47,423 | INFO  | AsyncResolver-bootstrap-executor-0:c.n.d.s.r.a.ConfigClusterResolver:43 | Resolving eureka endpoints via configuration
+2020-05-06 18:46:47,455 | INFO  | AsyncResolver-bootstrap-executor-0:c.n.d.s.r.a.ConfigClusterResolver:43 | Resolving eureka endpoints via configuration
+2020-05-06 18:51:47,455 | INFO  | AsyncResolver-bootstrap-executor-0:c.n.d.s.r.a.ConfigClusterResolver:43 | Resolving eureka endpoints via configuration
+2020-05-06 18:56:47,459 | INFO  | AsyncResolver-bootstrap-executor-0:c.n.d.s.r.a.ConfigClusterResolver:43 | Resolving eureka endpoints via configuration
+2020-05-06 19:01:47,504 | INFO  | AsyncResolver-bootstrap-executor-0:c.n.d.s.r.a.ConfigClusterResolver:43 | Resolving eureka endpoints via configuration
+2020-05-06 19:06:47,555 | INFO  | AsyncResolver-bootstrap-executor-0:c.n.d.s.r.a.ConfigClusterResolver:43 | Resolving eureka endpoints via configuration
+2020-05-06 19:11:47,575 | INFO  | AsyncResolver-bootstrap-executor-0:c.n.d.s.r.a.ConfigClusterResolver:43 | Resolving eureka endpoints via configuration
+2020-05-06 19:16:47,578 | INFO  | AsyncResolver-bootstrap-executor-0:c.n.d.s.r.a.ConfigClusterResolver:43 | Resolving eureka endpoints via configuration
+2020-05-06 19:21:47,583 | INFO  | AsyncResolver-bootstrap-executor-0:c.n.d.s.r.a.ConfigClusterResolver:43 | Resolving eureka endpoints via configuration
+2020-05-06 19:26:47,600 | INFO  | AsyncResolver-bootstrap-executor-0:c.n.d.s.r.a.ConfigClusterResolver:43 | Resolving eureka endpoints via configuration
+2020-05-06 19:31:47,618 | INFO  | AsyncResolver-bootstrap-executor-0:c.n.d.s.r.a.ConfigClusterResolver:43 | Resolving eureka endpoints via configuration
+2020-05-06 19:36:47,620 | INFO  | AsyncResolver-bootstrap-executor-0:c.n.d.s.r.a.ConfigClusterResolver:43 | Resolving eureka endpoints via configuration
+2020-05-06 19:41:47,622 | INFO  | AsyncResolver-bootstrap-executor-0:c.n.d.s.r.a.ConfigClusterResolver:43 | Resolving eureka endpoints via configuration
+2020-05-06 19:46:47,716 | INFO  | AsyncResolver-bootstrap-executor-0:c.n.d.s.r.a.ConfigClusterResolver:43 | Resolving eureka endpoints via configuration
+2020-05-06 19:51:47,750 | INFO  | AsyncResolver-bootstrap-executor-0:c.n.d.s.r.a.ConfigClusterResolver:43 | Resolving eureka endpoints via configuration
+2020-05-06 19:56:47,798 | INFO  | AsyncResolver-bootstrap-executor-0:c.n.d.s.r.a.ConfigClusterResolver:43 | Resolving eureka endpoints via configuration
+2020-05-06 20:01:47,822 | INFO  | AsyncResolver-bootstrap-executor-0:c.n.d.s.r.a.ConfigClusterResolver:43 | Resolving eureka endpoints via configuration
+2020-05-06 20:06:47,824 | INFO  | AsyncResolver-bootstrap-executor-0:c.n.d.s.r.a.ConfigClusterResolver:43 | Resolving eureka endpoints via configuration
+2020-05-06 20:11:47,826 | INFO  | AsyncResolver-bootstrap-executor-0:c.n.d.s.r.a.ConfigClusterResolver:43 | Resolving eureka endpoints via configuration
+2020-05-06 20:16:47,829 | INFO  | AsyncResolver-bootstrap-executor-0:c.n.d.s.r.a.ConfigClusterResolver:43 | Resolving eureka endpoints via configuration
+2020-05-06 20:21:47,833 | INFO  | AsyncResolver-bootstrap-executor-0:c.n.d.s.r.a.ConfigClusterResolver:43 | Resolving eureka endpoints via configuration
+2020-05-06 20:26:47,837 | INFO  | AsyncResolver-bootstrap-executor-0:c.n.d.s.r.a.ConfigClusterResolver:43 | Resolving eureka endpoints via configuration
+2020-05-06 20:31:47,840 | INFO  | AsyncResolver-bootstrap-executor-0:c.n.d.s.r.a.ConfigClusterResolver:43 | Resolving eureka endpoints via configuration
+2020-05-06 20:36:47,844 | INFO  | AsyncResolver-bootstrap-executor-0:c.n.d.s.r.a.ConfigClusterResolver:43 | Resolving eureka endpoints via configuration
+2020-05-06 20:41:47,848 | INFO  | AsyncResolver-bootstrap-executor-0:c.n.d.s.r.a.ConfigClusterResolver:43 | Resolving eureka endpoints via configuration
+2020-05-06 20:46:47,850 | INFO  | AsyncResolver-bootstrap-executor-0:c.n.d.s.r.a.ConfigClusterResolver:43 | Resolving eureka endpoints via configuration
+2020-05-06 20:51:47,852 | INFO  | AsyncResolver-bootstrap-executor-0:c.n.d.s.r.a.ConfigClusterResolver:43 | Resolving eureka endpoints via configuration
+2020-05-06 20:56:47,855 | INFO  | AsyncResolver-bootstrap-executor-0:c.n.d.s.r.a.ConfigClusterResolver:43 | Resolving eureka endpoints via configuration
+2020-05-06 21:01:47,857 | INFO  | AsyncResolver-bootstrap-executor-0:c.n.d.s.r.a.ConfigClusterResolver:43 | Resolving eureka endpoints via configuration
+2020-05-06 21:06:47,861 | INFO  | AsyncResolver-bootstrap-executor-0:c.n.d.s.r.a.ConfigClusterResolver:43 | Resolving eureka endpoints via configuration
+2020-05-06 21:11:47,866 | INFO  | AsyncResolver-bootstrap-executor-0:c.n.d.s.r.a.ConfigClusterResolver:43 | Resolving eureka endpoints via configuration
+2020-05-06 21:16:47,883 | INFO  | AsyncResolver-bootstrap-executor-0:c.n.d.s.r.a.ConfigClusterResolver:43 | Resolving eureka endpoints via configuration
+2020-05-06 21:21:47,902 | INFO  | AsyncResolver-bootstrap-executor-0:c.n.d.s.r.a.ConfigClusterResolver:43 | Resolving eureka endpoints via configuration
+2020-05-06 21:26:47,928 | INFO  | AsyncResolver-bootstrap-executor-0:c.n.d.s.r.a.ConfigClusterResolver:43 | Resolving eureka endpoints via configuration
+2020-05-06 21:31:48,004 | INFO  | AsyncResolver-bootstrap-executor-0:c.n.d.s.r.a.ConfigClusterResolver:43 | Resolving eureka endpoints via configuration
+2020-05-06 21:36:48,006 | INFO  | AsyncResolver-bootstrap-executor-0:c.n.d.s.r.a.ConfigClusterResolver:43 | Resolving eureka endpoints via configuration
+2020-05-06 21:41:48,008 | INFO  | AsyncResolver-bootstrap-executor-0:c.n.d.s.r.a.ConfigClusterResolver:43 | Resolving eureka endpoints via configuration
+2020-05-06 21:46:48,009 | INFO  | AsyncResolver-bootstrap-executor-0:c.n.d.s.r.a.ConfigClusterResolver:43 | Resolving eureka endpoints via configuration
+2020-05-06 21:51:48,012 | INFO  | AsyncResolver-bootstrap-executor-0:c.n.d.s.r.a.ConfigClusterResolver:43 | Resolving eureka endpoints via configuration
+2020-05-06 21:56:48,022 | INFO  | AsyncResolver-bootstrap-executor-0:c.n.d.s.r.a.ConfigClusterResolver:43 | Resolving eureka endpoints via configuration
+2020-05-06 22:01:48,041 | INFO  | AsyncResolver-bootstrap-executor-0:c.n.d.s.r.a.ConfigClusterResolver:43 | Resolving eureka endpoints via configuration
+2020-05-06 22:06:48,095 | INFO  | AsyncResolver-bootstrap-executor-0:c.n.d.s.r.a.ConfigClusterResolver:43 | Resolving eureka endpoints via configuration
+2020-05-06 22:11:48,112 | INFO  | AsyncResolver-bootstrap-executor-0:c.n.d.s.r.a.ConfigClusterResolver:43 | Resolving eureka endpoints via configuration
+2020-05-06 22:16:48,158 | INFO  | AsyncResolver-bootstrap-executor-0:c.n.d.s.r.a.ConfigClusterResolver:43 | Resolving eureka endpoints via configuration
+2020-05-06 22:21:48,160 | INFO  | AsyncResolver-bootstrap-executor-0:c.n.d.s.r.a.ConfigClusterResolver:43 | Resolving eureka endpoints via configuration
+2020-05-06 22:26:48,162 | INFO  | AsyncResolver-bootstrap-executor-0:c.n.d.s.r.a.ConfigClusterResolver:43 | Resolving eureka endpoints via configuration
+2020-05-06 22:31:48,169 | INFO  | AsyncResolver-bootstrap-executor-0:c.n.d.s.r.a.ConfigClusterResolver:43 | Resolving eureka endpoints via configuration
+2020-05-06 22:36:48,189 | INFO  | AsyncResolver-bootstrap-executor-0:c.n.d.s.r.a.ConfigClusterResolver:43 | Resolving eureka endpoints via configuration
+2020-05-06 22:41:48,216 | INFO  | AsyncResolver-bootstrap-executor-0:c.n.d.s.r.a.ConfigClusterResolver:43 | Resolving eureka endpoints via configuration
+2020-05-06 22:46:48,228 | INFO  | AsyncResolver-bootstrap-executor-0:c.n.d.s.r.a.ConfigClusterResolver:43 | Resolving eureka endpoints via configuration
+2020-05-06 22:51:48,305 | INFO  | AsyncResolver-bootstrap-executor-0:c.n.d.s.r.a.ConfigClusterResolver:43 | Resolving eureka endpoints via configuration
+2020-05-06 22:56:48,349 | INFO  | AsyncResolver-bootstrap-executor-0:c.n.d.s.r.a.ConfigClusterResolver:43 | Resolving eureka endpoints via configuration
+2020-05-06 23:01:48,351 | INFO  | AsyncResolver-bootstrap-executor-0:c.n.d.s.r.a.ConfigClusterResolver:43 | Resolving eureka endpoints via configuration
+2020-05-06 23:06:48,355 | INFO  | AsyncResolver-bootstrap-executor-0:c.n.d.s.r.a.ConfigClusterResolver:43 | Resolving eureka endpoints via configuration
+2020-05-06 23:11:48,358 | INFO  | AsyncResolver-bootstrap-executor-0:c.n.d.s.r.a.ConfigClusterResolver:43 | Resolving eureka endpoints via configuration
+2020-05-06 23:16:48,359 | INFO  | AsyncResolver-bootstrap-executor-0:c.n.d.s.r.a.ConfigClusterResolver:43 | Resolving eureka endpoints via configuration
+2020-05-06 23:21:48,361 | INFO  | AsyncResolver-bootstrap-executor-0:c.n.d.s.r.a.ConfigClusterResolver:43 | Resolving eureka endpoints via configuration
+2020-05-06 23:26:48,363 | INFO  | AsyncResolver-bootstrap-executor-0:c.n.d.s.r.a.ConfigClusterResolver:43 | Resolving eureka endpoints via configuration
+2020-05-06 23:31:48,365 | INFO  | AsyncResolver-bootstrap-executor-0:c.n.d.s.r.a.ConfigClusterResolver:43 | Resolving eureka endpoints via configuration
+2020-05-06 23:36:48,367 | INFO  | AsyncResolver-bootstrap-executor-0:c.n.d.s.r.a.ConfigClusterResolver:43 | Resolving eureka endpoints via configuration
+2020-05-06 23:41:48,368 | INFO  | AsyncResolver-bootstrap-executor-0:c.n.d.s.r.a.ConfigClusterResolver:43 | Resolving eureka endpoints via configuration
+2020-05-06 23:46:48,369 | INFO  | AsyncResolver-bootstrap-executor-0:c.n.d.s.r.a.ConfigClusterResolver:43 | Resolving eureka endpoints via configuration
+2020-05-06 23:51:48,372 | INFO  | AsyncResolver-bootstrap-executor-0:c.n.d.s.r.a.ConfigClusterResolver:43 | Resolving eureka endpoints via configuration
+2020-05-06 23:56:48,373 | INFO  | AsyncResolver-bootstrap-executor-0:c.n.d.s.r.a.ConfigClusterResolver:43 | Resolving eureka endpoints via configuration

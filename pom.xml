@@ -73,6 +73,7 @@
         <module>server2</module>
         <module>common</module>
         <module>thymeleaf</module>
+        <module>oauth2</module>
     </modules>
     <dependencyManagement>
         <dependencies>

@@ -13,6 +13,7 @@
         <module name="server2" />
         <module name="server1" />
         <module name="redis" />
+        <module name="oauth2" />
         <module name="config" />
       </profile>
     </annotationProcessing>
@@ -22,6 +23,7 @@
       <module name="demo" target="1.8" />
       <module name="eureka" target="1.8" />
       <module name="gateway" target="1.8" />
+      <module name="oauth2" target="1.8" />
       <module name="redis" target="1.8" />
       <module name="server1" target="1.8" />
       <module name="server2" target="1.8" />
@@ -36,6 +38,7 @@
       <module name="demo" options="-parameters" />
       <module name="eureka" options="-parameters" />
       <module name="gateway" options="-parameters" />
+      <module name="oauth2" options="-parameters" />
       <module name="redis" options="-parameters" />
       <module name="server1" options="-parameters" />
       <module name="server2" options="-parameters" />
