@@ -2,32 +2,64 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd3aff1f-3785-4c40-b52a-7beb11bb39b5" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/oauth2/oauth2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2/src/main/resources/bootstrap.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oauth2/src/main/resources/logback.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_1_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_2_2_6_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_2_2_7_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_2_2_6_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_2_2_7_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_2_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_2_6_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_5_2_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_5_2_6_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/common.iml" beforeDir="false" afterPath="$PROJECT_DIR$/common/common.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/src/main/resources/config/gateway-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/src/main/resources/config/gateway-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/src/main/resources/config/gateway-prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/src/main/resources/config/gateway-prod.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/src/main/resources/config/gateway-test.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/src/main/resources/config/gateway-test.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server1/server1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/server1/server1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/baidu/common/util/Base64Utils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/baidu/common/util/DateUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/baidu/common/util/StringUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/target/classes/com/baidu/config/ConfigApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/target/classes/config/gateway-dev.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/target/classes/config/gateway-prod.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/target/classes/config/gateway-test.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/target/classes/logback.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka/target/classes/com/baidu/eureka/EurekaApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka/target/classes/logback.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/target/classes/bootstrap.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/target/classes/com/baidu/gateway/GatewayApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/target/classes/logback.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/config-error-2020-05-06.0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/config-error-2020-05-08.0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/config-info-2020-05-06.0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/config-info-2020-05-07.0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/config-info-2020-05-08.0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/eureka-error-2020-05-06.0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/eureka-error-2020-05-07.0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/eureka-error-2020-05-08.0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/eureka-info-2020-05-06.0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/eureka-info-2020-05-07.0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/eureka-info-2020-05-08.0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/gateway-error-2020-05-06.0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/gateway-error-2020-05-08.0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/gateway-info-2020-05-06.0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/gateway-info-2020-05-07.0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/gateway-info-2020-05-08.0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/spring.log-error-2020-05-06.0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/spring.log-error-2020-05-08.0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/spring.log-info-2020-05-06.0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/spring.log-info-2020-05-08.0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/thymeleaf-error-2020-05-06.0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/thymeleaf-error-2020-05-08.0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/thymeleaf-info-2020-05-06.0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/thymeleaf-info-2020-05-08.0.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/thymeleaf/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/thymeleaf/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thymeleaf/src/main/java/com/baidu/thymeleaf/controller/DataController.java" beforeDir="false" afterPath="$PROJECT_DIR$/thymeleaf/src/main/java/com/baidu/thymeleaf/controller/DataController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf/src/main/resources/application.yml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/thymeleaf/src/main/resources/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/thymeleaf/src/main/resources/bootstrap.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thymeleaf/src/test/java/com/baidu/thymeleaf/ThymeleafApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/thymeleaf/src/test/java/com/baidu/thymeleaf/ThymeleafApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thymeleaf/thymeleaf.iml" beforeDir="false" afterPath="$PROJECT_DIR$/thymeleaf/thymeleaf.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf/target/classes/META-INF/thymeleaf.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf/target/classes/banner.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf/target/classes/bootstrap.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf/target/classes/com/baidu/thymeleaf/ThymeleafApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf/target/classes/com/baidu/thymeleaf/bean/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf/target/classes/com/baidu/thymeleaf/controller/DataController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf/target/classes/logback.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf/target/classes/static/common/common-js.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf/target/classes/static/css/element-ui@2.12.0.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf/target/classes/static/js/element-ui@2.12.0.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf/target/classes/static/js/vue@2.6.20.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf/target/classes/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf/target/test-classes/META-INF/thymeleaf.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf/target/test-classes/com/baidu/thymeleaf/ThymeleafApplicationTests.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +137,7 @@
       <recent name="D:\项目框架\spring系列\springcloud\server1\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.ThymeleafApplication">
+  <component name="RunManager" selected="Spring Boot.Server1Application">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -190,6 +222,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RedisApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="redis" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.baidu.redis.RedisApplication" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="D:\java1.8\jdk\jre" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Server1Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="server1" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.baidu.server1.Server1Application" />
@@ -249,6 +290,7 @@
       <item itemvalue="Spring Boot.ConfigApplication" />
       <item itemvalue="Spring Boot.GatewayApplication" />
       <item itemvalue="Spring Boot.ThymeleafApplication" />
+      <item itemvalue="Spring Boot.RedisApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -284,6 +326,7 @@
       <workItem from="1588058141164" duration="8799000" />
       <workItem from="1588754035536" duration="4856000" />
       <workItem from="1588901804804" duration="1559000" />
+      <workItem from="1589011245502" duration="257000" />
     </task>
     <servers />
   </component>
@@ -319,22 +362,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1588064678816" />
-    <state width="1323" height="36" key="GridCell.Tab.0.bottom" timestamp="1588903471302">
+    <state width="1323" height="166" key="GridCell.Tab.0.bottom" timestamp="1589011452912">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="36" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1588903471302" />
-    <state width="1323" height="36" key="GridCell.Tab.0.center" timestamp="1588903471301">
+    <state width="1323" height="166" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1589011452912" />
+    <state width="1323" height="166" key="GridCell.Tab.0.center" timestamp="1589011452912">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="36" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1588903471301" />
-    <state width="1323" height="36" key="GridCell.Tab.0.left" timestamp="1588903471301">
+    <state width="1323" height="166" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1589011452912" />
+    <state width="1323" height="166" key="GridCell.Tab.0.left" timestamp="1589011452911">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="36" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1588903471301" />
-    <state width="1323" height="36" key="GridCell.Tab.0.right" timestamp="1588903471301">
+    <state width="1323" height="166" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1589011452911" />
+    <state width="1323" height="166" key="GridCell.Tab.0.right" timestamp="1589011452912">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="36" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1588903471301" />
+    <state width="1323" height="166" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1589011452912" />
     <state width="1323" height="36" key="GridCell.Tab.1.bottom" timestamp="1588903471302">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
