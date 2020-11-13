@@ -2,8 +2,49 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd3aff1f-3785-4c40-b52a-7beb11bb39b5" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2/src/main/java/com/baidu/oauth2/configurer/AuthorizationServerConfigurer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2/src/main/java/com/baidu/oauth2/configurer/WebSecurityConfigurer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2/src/main/java/com/baidu/oauth2/integration/IntegrationAuthenticationContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2/src/main/java/com/baidu/oauth2/integration/IntegrationAuthenticationEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2/src/main/java/com/baidu/oauth2/integration/IntegrationAuthenticationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2/src/main/java/com/baidu/oauth2/integration/IntegrationUserDetailsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2/src/main/java/com/baidu/oauth2/integration/authenticator/AbstractPreparableIntegrationAuthenticator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2/src/main/java/com/baidu/oauth2/integration/authenticator/IntegrationAuthenticator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2/src/main/java/com/baidu/oauth2/integration/authenticator/SmsAuthenticator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2/src/main/java/com/baidu/oauth2/integration/authenticator/UsernamePasswordAuthenticator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2/src/main/java/com/baidu/oauth2/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2/src/main/java/com/baidu/oauth2/pojo/UserPojo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thymeleaf/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_2_2_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_2_4_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_2_2_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_2_4_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_2_6_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_3_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_5_2_6_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_5_3_1.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/common.iml" beforeDir="false" afterPath="$PROJECT_DIR$/common/common.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/baidu/common/util/Base64Utils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/baidu/common/util/DateUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/baidu/common/util/StringUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2/oauth2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/oauth2/oauth2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/oauth2/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2/src/main/java/com/baidu/oauth2/Oauth2Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/oauth2/src/main/java/com/baidu/oauth2/Oauth2Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/oauth2/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2/src/test/java/com/baidu/oauth2/Oauth2ApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/oauth2/src/test/java/com/baidu/oauth2/Oauth2ApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server1/src/main/java/com/baidu/server1/controller/ServerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/server1/src/main/java/com/baidu/server1/controller/ServerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/thymeleaf/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf/src/main/resources/banner.txt" beforeDir="false" afterPath="$PROJECT_DIR$/thymeleaf/src/main/resources/banner.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf/src/main/resources/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/thymeleaf/src/main/resources/bootstrap.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thymeleaf/thymeleaf.iml" beforeDir="false" afterPath="$PROJECT_DIR$/thymeleaf/thymeleaf.iml" afterDir="false" />
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,7 +63,7 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="$PROJECT_DIR$/../../../../apache-maven-3.5.0" />
+        <option name="mavenHome" value="D:/../apache-maven-3.5.0" />
         <option name="userSettingsFile" value="D:\apache-maven-3.5.0\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
@@ -49,7 +90,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/oauth2/src/main/java/com/baidu/oauth2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -62,8 +103,15 @@
     <option name="notificationShown" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\【No598】2019Java微服务架构(SpringBoot+SpringCloud)（156集）\springcloud" />
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.baidu.oauth2" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\项目框架\git项目\springcloud" />
+      <recent name="D:\项目框架\git\springcloud\oauth2\src\main\java\com\baidu\oauth2" />
+      <recent name="D:\项目框架\git\springcloud\server1\src\main\java\com\baidu\server1\autho" />
+      <recent name="D:\项目框架\git\springcloud\oauth2\src\test\java\com\baidu\oauth2" />
+      <recent name="D:\项目框架\gitHub\spring\springcloud\oauth2\src\main\java\com\baidu\oauth2" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.baidu.common.util" />
@@ -72,15 +120,23 @@
       <recent name="com.baidu.redis.service" />
       <recent name="com.baidu.redis.config" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\项目框架\gitHub\spring\springcloud\oauth2\src\main\java\com\baidu\oauth2" />
-      <recent name="D:\项目框架\gitHub\spring\springcloud\oauth2\src\main\resources" />
-      <recent name="D:\项目框架\spring系列\springcloud\thymeleaf\src\main\resources" />
-      <recent name="D:\项目框架\spring系列\springcloud\server2\src\main\resources" />
-      <recent name="D:\项目框架\spring系列\springcloud\server1\src\main\resources" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\【No598】2019Java微服务架构(SpringBoot+SpringCloud)（156集）\springcloud" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.Server1Application">
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ThymeleafApplication">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -229,11 +285,11 @@
       <item itemvalue="Spring Boot.Server1Application" />
       <item itemvalue="Spring Boot.Oauth2Application" />
       <item itemvalue="Spring Boot.Server2Application" />
+      <item itemvalue="Spring Boot.RedisApplication" />
       <item itemvalue="Spring Boot.EurekaApplication" />
       <item itemvalue="Spring Boot.ConfigApplication" />
       <item itemvalue="Spring Boot.GatewayApplication" />
       <item itemvalue="Spring Boot.ThymeleafApplication" />
-      <item itemvalue="Spring Boot.RedisApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -269,12 +325,33 @@
       <workItem from="1588058141164" duration="8799000" />
       <workItem from="1588754035536" duration="4856000" />
       <workItem from="1588901804804" duration="1559000" />
-      <workItem from="1589011245502" duration="1068000" />
+      <workItem from="1589011245502" duration="2432000" />
+      <workItem from="1589180455245" duration="2431000" />
+      <workItem from="1589692345164" duration="2089000" />
+      <workItem from="1589771827950" duration="2835000" />
+      <workItem from="1589860557039" duration="5334000" />
+      <workItem from="1589873838661" duration="2831000" />
+      <workItem from="1589958461526" duration="3481000" />
+      <workItem from="1595236711298" duration="2316000" />
+      <workItem from="1605252881766" duration="1824000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
     <state x="206" y="0" width="967" height="728" key="#EurekaApplication" timestamp="1588053735313">

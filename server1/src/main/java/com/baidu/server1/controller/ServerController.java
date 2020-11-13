@@ -13,7 +13,7 @@ public class ServerController {
 
     @GetMapping("get")
     private Object get(@RequestParam("msg") String msg) {
-        return getServer1( msg);
+        return getServer1(msg);
     }
 
     //服务之间通讯
@@ -21,4 +21,10 @@ public class ServerController {
     public Object getServer1(String msg) {
         return server1.getServer2(msg);
     }
+
+    @GetMapping("oa")
+    private Object oa(@RequestParam("msg") String msg) {
+        return getServer1(msg);
+    }
+
 }
